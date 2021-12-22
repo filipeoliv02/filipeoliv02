@@ -2,7 +2,8 @@
 - 👀 I am interested in Software Engineering, Linux and Mechanical Keyboards
 - 💻 C, C++, C#, Java
 
-[![Filipeoliv02s GitHub stats](https://github-readme-stats.vercel.app/api?username=filipeoliv02&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Filipeoliv02s GitHub stats](https://github-readme-stats.vercel.app/api?username=filipeoliv02&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)  
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=filipeoliv02&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
 
