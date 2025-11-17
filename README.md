@@ -1,5 +1,5 @@
 # Filipe Teixeira
-Hi! I'm Filipe Teixeira, a Software Engineer from Porto, Portugal.
+Hi! I'm Filipe Teixeira, a Software Engineer from Luzern, Switzerland.
 
 Throughout my career, I've worked on projects across various industries, including energy, medical devices, metrology, telecommunications, and transportation. This page showcases some of the personal projects I've developed or contributed to.
 
