@@ -1,28 +1,62 @@
 # Filipe Teixeira
-Hi! I'm Filipe Teixeira, a Software Engineer from Luzern, Switzerland.
 
-Throughout my career, I've worked on projects across various industries, including energy, medical devices, metrology, telecommunications, and transportation. This page showcases some of the personal projects I've developed or contributed to.
+Hi! I'm Filipe, a Software Engineer based in Luzern, Switzerland.
 
-_Note: This list doesn't include all my work. Some projects are private, either personal or tied to the companies I've worked with._
+I've worked on projects across energy, medical devices, metrology, telecommunications, and transportation. This page highlights some of the personal projects I've built or contributed to.
 
-This list is work in progress, and I'll keep adding more projects as I find the time to write about them.
+> [!NOTE]
+> Some of my work is private, either personal or tied to the companies I've worked with, so it isn't listed here.
 
-## Go
-- [Go Coin API](https://github.com/filipeoliv02/Go-Coin-API) is an HTTP API written in Go that provides endpoints for retrieving account balances and handling errors. The API is designed to manage coin balances, respond with structured JSON data, and handle various error conditions gracefully. It utilizes the encoding/json and net/http libraries for JSON encoding and HTTP request handling, respectively. The project includes a GitHub Actions workflow configured to build and test the application on every push and pull request to the master branch, ensuring continuous integration and code quality. This project demonstrates how to use Go's standard library to build a simple HTTP API, along with integration with GitHub Actions for automated testing. It highlights key features like error handling and JSON encoding in Go, serving as a foundation for developing more complex APIs.
+## Featured
 
-## Java
-- [Random Player Generator](https://github.com/filipeoliv02/random-player-generator) is a Java application that generates random players with attributes such as names, countries, and various stats. It reads data from text files and assigns these attributes using random number generation. The program also calculates player physical attributes and outputs detailed player information. This project showcases Java’s file I/O operations, random number generation, and object-oriented programming principles.
-## C#
-- [SiUFP Grades](https://github.com/filipeoliv02/SiufpGrades) is a C# project that uses Selenium to automate the retrieval of grades from a university portal. The program logs into the system, checks for new grades, and alerts the user when new grades are published. This project was developed to address the lack of notification features from the school's portal. It demonstrates the use of web automation with Selenium in C#, including techniques for handling dynamic web content, managing authentication, and executing automated browser tasks.
-- [Customer Store API](https://github.com/filipeoliv02/customer-store-api) is a back-end RESTful service designed to manage an eCommerce application. Built using C# and .NET, it adheres to Clean Architecture principles to ensure scalability, maintainability, and a clear separation of concerns. The API employs the Entity Framework for data persistence, currently relying on an in-memory database to facilitate development and testing.
+### [Customer Store API](https://github.com/filipeoliv02/customer-store-api)
+A RESTful back end for an eCommerce application, built with C# and .NET following Clean Architecture.
 
-  The API provides functionality for managing customer data, including creating new customers, retrieving individual or multiple customer records, and deleting customer entries. It ensures data integrity by enforcing rules such as unique email addresses for customers. Advanced features include the ability to filter customer lists by name or email and the integration of geolocation services. By using the PositionStack API, the service enriches customer records with geolocation details based on their addresses, demonstrating seamless integration with third-party APIs. Configuration for the geolocation service is handled securely through environment variables, ensuring flexibility and security.
+- Create, retrieve, filter (by name or email), and delete customers, with unique-email enforcement
+- Enriches customer records with geolocation data from the PositionStack API, configured via environment variables
+- Entity Framework with an in-memory database for development and testing
+- Dedicated unit test project
 
-  In addition to its functional capabilities, the project places a strong emphasis on quality assurance through comprehensive testing. The solution includes a dedicated test project which contains unit tests. The use of an in-memory database during testing further streamlines the process, allowing for realistic simulations of data operations without external dependencies.
+**Stack:** C# · .NET · Entity Framework · REST
 
-## C
-- [Sudoku X Solver](https://github.com/filipeoliv02/Sudoku_X_Solver) is a C program that solves Sudoku X puzzles, a variant of the classic Sudoku game that includes two additional diagonal constraints. The program can generate and solve Sudoku X puzzles of varying difficulty levels, providing a challenging experience for puzzle enthusiasts. It demonstrates the use of multiple algorithms to solve combinatorial problems efficiently and showcases C programming techniques for handling multidimensional arrays and recursive functions.
-- [Reservation System](https://github.com/filipeoliv02/Reservation-System) was designed to manage reservations for a local accommodation company. The system integrates with multiple rental platforms, synchronizes calendars, handles events like cleaning or maintenance, and resolves overbookings. It uses dynamic data structures like linked lists and dynamic arrays to manage buildings, studios, guests, and reservations. Algorithms such as binary search, conflict resolution, and dynamic pricing calculation optimize the system's performance. This project demonstrates efficient handling of file I/O, pointer manipulation, and memory management in C, with a focus on real-world accommodation management challenges.
+## Projects
 
-## Shell
-- [PDF Search](https://github.com/filipeoliv02/pdf-search/) is a shell script that allows users to search for a specific string within all PDF files in a given directory. It can perform the search recursively through subdirectories and displays the results in a simple interactive menu, allowing users to open the selected PDF file directly. This project demonstrates how to use Bash scripting for efficient file searching and manipulation. It leverages tools like `pdfgrep` for string matching in PDF files, integrates file I/O operations, and provides an interactive command-line interface. Additionally, the script showcases argument parsing, recursive directory traversal, and dynamic file opening using `xdg-open`, making it a useful tool for automating PDF searches.
+### Go
+
+#### [Go Coin API](https://github.com/filipeoliv02/Go-Coin-API)
+An HTTP API for retrieving coin account balances, returning structured JSON and handling error conditions gracefully. Built entirely on Go's standard library, with a GitHub Actions workflow that builds and tests every push and pull request.
+
+**Stack:** Go · `net/http` · `encoding/json` · GitHub Actions
+
+### Java
+
+#### [Random Player Generator](https://github.com/filipeoliv02/random-player-generator)
+Generates random players with names, countries, stats, and physical attributes, using data loaded from text files.
+
+**Stack:** Java · File I/O · OOP
+
+### C#
+
+#### [SiUFP Grades](https://github.com/filipeoliv02/SiufpGrades)
+Automates grade checking on a university portal that has no notifications of its own. It logs in, detects newly published grades, and alerts the user.
+
+**Stack:** C# · Selenium · Web automation
+
+### C
+
+#### [Sudoku X Solver](https://github.com/filipeoliv02/Sudoku_X_Solver)
+Generates and solves Sudoku X puzzles, a variant with two extra diagonal constraints, at varying difficulty levels using multiple solving algorithms.
+
+**Stack:** C · Recursive algorithms · Multidimensional arrays
+
+#### [Reservation System](https://github.com/filipeoliv02/Reservation-System)
+A reservation manager for a local accommodation company. It syncs calendars across rental platforms, schedules cleaning and maintenance, resolves overbookings, and calculates dynamic pricing.
+
+**Stack:** C · Linked lists · Dynamic arrays · Binary search · Manual memory management
+
+### Shell
+
+#### [PDF Search](https://github.com/filipeoliv02/pdf-search/)
+Searches for a string across all PDFs in a directory, optionally recursively, and shows the matches in an interactive menu that opens the selected file.
+
+**Stack:** Bash · `pdfgrep` · `xdg-open`
