@@ -50,9 +50,9 @@ Generates and solves Sudoku X puzzles, a variant with two extra diagonal constra
 **Stack:** C · Recursive algorithms · Multidimensional arrays
 
 #### [Reservation System](https://github.com/filipeoliv02/Reservation-System)
-A reservation manager for a local accommodation company. It syncs calendars across rental platforms, schedules cleaning and maintenance, resolves overbookings, and calculates dynamic pricing.
+The data layer of a reservation manager for a local accommodation company: buildings, studios and events (cleaning, maintenance) loaded from CSV into hand-written data structures, with strict input validation and sanitizer-checked memory management.
 
-**Stack:** C · Linked lists · Dynamic arrays · Binary search · Manual memory management
+**Stack:** C · Linked lists · Dynamic arrays · Insertion sort · Bounded CSV parsing · Manual memory management
 
 ### Shell
 
